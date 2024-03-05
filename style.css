@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "satoshi";
+  src: url("/fonts/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "satoshi", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+/* NAVBAR */
+
+nav {
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vw;
+  background-color: #f1e9fc;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+ul li {
+  list-style: none;
+  font-weight: 800;
+  font-size: 16px;
+}
+ul li button {
+  width: 155px;
+  height: 43px;
+  border-radius: 56px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  font-size: 15.63px;
+  font-weight: 600;
+}
+
+/* SECTION 1 */
+.section1 {
+  width: 100%;
+  height: fit-content;
+  background-color: #f1e9fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0 20vw;
+  padding-top: 5vw;
+  text-align: center;
+}
+
+.section1 h1 {
+  font-size: 4.3vw;
+  font-weight: 900;
+  letter-spacing: -0.3vw;
+  line-height: 5.3vw;
+  position: relative;
+}
+.section1 p {
+  padding: 0 10vw;
+  margin: 1.2vw 0;
+  font-size: 1.2vw;
+  font-weight: 500;
+  background-image: linear-gradient(to right, #8658e6, #863c8b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.section1 p strong {
+  color: black;
+}
+
+.dashboard {
+  width: 50vw;
+  height: fit-content;
+}
+
+/* SECTION 2 */
+.section2 {
+  width: 100%;
+  height: 100%;
+  background-color: #fdfdfd;
+  padding: 5vw 7vw;
+}
+.section2 .section2-top {
+  display: flex;
+  gap: 7vw;
+}
+/* SECTION 2 LEFT */
+.left-side {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2vw;
+}
+.left-side img {
+  width: 40vw;
+}
+/* SECTION 2 RIGHT */
+.right-side {
+  padding-top: 7vw;
+}
+.right-side h4 {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 5vw;
+  border-bottom: 2.44px solid #d489b333;
+  width: fit-content;
+}
+.right-side h4 span {
+  color: #b23c7b;
+}
+
+.right-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 2vw 0;
+}
+.right-list p {
+  font-weight: 400;
+  font-size: 1.3vw;
+  color: #000000b2;
+}
+
+/* SECTION 2 BOTTOM */
+
+.section2 .section-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  margin: 2vw 0;
+}
+.section2 .section-bottom .elem {
+  display: flex;
+  align-items: center;
+  background-color: #e566ec1a;
+}
